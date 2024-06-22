@@ -50,7 +50,9 @@ This project aims to analyze the sentiment of tweets posted on Twitter. It lever
 2. Use the extension:
    - Navigate to Twitter and select a tweet.
    - Right Click and click on "Analyze Sentiment".
+   - (Images/1.png)
    - Next click on the extension icon to analyze the sentiment of the selected tweet.
+   - (Images/2.png)
 
 ## License
 
