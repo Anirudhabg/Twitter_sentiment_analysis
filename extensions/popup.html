@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Twitter Sentiment Analysis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; padding: 30px; }
-    #result { margin-top: 10px; }
+    body {
+      font-family: "Playfair Display", serif;
+      padding: 40px;
+    }
+
+    #result {
+      margin-top: 10px;
+    }
+
+    #selectedText {
+      padding: 10px;
+      background-color: #ffffff;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+
+    /* Styling for the analyze button */
+    #analyzeButton {
+      font-family: "Playfair Display", serif;
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    #analyzeButton:hover {
+      background-color: #0056b3;
+    }
   </style>
 </head>
+
 <body>
   <h3>Sentiment Analysis</h3>
   <p id="selectedText">No text selected.</p>
@@ -15,4 +54,5 @@
 
   <script src="popup.js"></script>
 </body>
+
 </html>
