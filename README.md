@@ -1,4 +1,4 @@
-# Twitter Sentiment Analysis
+# SentimentScope: Real-Time Twitter Sentiment Analysis via Chrome Extension
 
 Twitter Sentiment Analysis is a project that performs sentiment analysis on Twitter data using machine learning techniques. It includes a Flask backend for serving the sentiment analysis model and a Chrome extension for analyzing sentiment directly from Twitter.
 
