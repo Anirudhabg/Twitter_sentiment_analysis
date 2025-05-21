@@ -1,5 +1,3 @@
----
-
 # 🎯 SentimentScope: Real-Time Twitter Sentiment Analysis via Chrome Extension
 
 **SentimentScope** is a powerful project that performs **real-time sentiment analysis** on Twitter content using machine learning techniques. It features a user-friendly **Chrome extension** that integrates directly with the Twitter interface and a robust **Flask backend** to classify tweets as **positive**, **negative**, or **neutral**.
