@@ -1,62 +1,125 @@
-# SentimentScope: Real-Time Twitter Sentiment Analysis via Chrome Extension
+---
 
-Twitter Sentiment Analysis is a project that performs sentiment analysis on Twitter data using machine learning techniques. It includes a Flask backend for serving the sentiment analysis model and a Chrome extension for analyzing sentiment directly from Twitter.
+# 🎯 SentimentScope: Real-Time Twitter Sentiment Analysis via Chrome Extension
 
-## Introduction
+**SentimentScope** is a powerful project that performs **real-time sentiment analysis** on Twitter content using machine learning techniques. It features a user-friendly **Chrome extension** that integrates directly with the Twitter interface and a robust **Flask backend** to classify tweets as **positive**, **negative**, or **neutral**.
 
-This project aims to analyze the sentiment of tweets posted on Twitter. It leverages machine learning models trained on labeled Twitter data to classify tweets as positive, negative, or neutral. The sentiment analysis model is served through a Flask backend, allowing users to submit text for analysis. Additionally, a Chrome extension is provided for convenient sentiment analysis directly from the Twitter website.
+---
 
-## Project Structure
+## 🚀 Features
 
-- `Dataset/`: Contains the dataset used for training and testing.
-- `extensions/`: Contains the Chrome extension files, including icons, models folder, manifest.json, background.js, content.js, popup.html, and popup.js.
-- `models/`: Contains the trained machine learning models.
-- `twitter_sentiment_analysis_training.ipynb`: Jupyter Notebook containing the training code for the sentiment analysis model.
-- `app.py`: Flask backend for serving the sentiment analysis model.
+* 🔍 Analyze sentiments of tweets in real-time
+* 🧠 Machine learning model trained on Twitter-specific data
+* 🧩 Chrome extension for seamless Twitter integration
+* 🌐 Flask backend API for processing and serving predictions
+* 📊 Clear visualization and interpretation of sentiments
 
-## Installation
+---
 
-1. Clone the repository:
+## 🧠 Technologies Used
 
-   ```bash
-   git clone https://github.com/Anirudhabg/Twitter_sentiment_analysis.git
-   ```
+* **Python**, **Flask**
+* **Scikit-learn**, **NLTK**, **Pandas**
+* **Jupyter Notebook**
+* **JavaScript**, **HTML5**, **CSS3** (Chrome Extension)
+* **Chrome Extensions API**
 
-2. Install the required dependencies:
+---
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 📁 Project Structure
 
-## Usage
+```plaintext
+Twitter_sentiment_analysis/
+│
+├── Dataset/                        # Contains the training/testing dataset
+├── extensions/                    # Chrome extension files
+│   ├── icons/                     # Extension icons
+│   ├── models/                    # Saved model files for client use
+│   ├── manifest.json              # Extension configuration
+│   ├── background.js              # Background logic
+│   ├── content.js                 # Content script for Twitter page
+│   ├── popup.html                 # UI for the popup
+│   └── popup.js                   # Logic for the popup
+│
+├── models/                        # Trained ML models (server-side)
+├── twitter_sentiment_analysis_training.ipynb  # Jupyter notebook for training
+├── app.py                         # Flask backend
+├── requirements.txt               # Project dependencies
+└── README.md                      # Project documentation
+```
 
-### Flask Backend
+---
 
-1. Start the Flask backend:
+## 🔧 Installation & Setup
 
-   ```bash
-   python app.py
-   ```
+### 1️⃣ Clone the Repository
 
-2. The backend will start running at `http://localhost:5000`.
+```bash
+git clone https://github.com/Anirudhabg/Twitter_sentiment_analysis.git
+cd Twitter_sentiment_analysis
+```
 
-### Chrome Extension
+### 2️⃣ Install Backend Dependencies
 
-1. Load the extension in Chrome:
-   - Open Chrome and navigate to `chrome://extensions`.
-   - Enable "Developer mode" in the top right corner.
-   - Click on "Load unpacked" and select the `extensions` folder from the cloned repository.
+Ensure you have Python installed, then run:
 
-2. Use the extension:
-   - Navigate to Twitter and select a tweet.
-   - Right Click and click on "Analyze Sentiment".
+```bash
+pip install -r requirements.txt
+```
 
-     ![Analyze Sentiment](https://github.com/Anirudhabg/Twitter_sentiment_analysis/blob/5f3d83c54b2205ee3ba7bc11c32373979a3de3ae/Images/1.png)
+---
 
-   - Next click on the extension icon to analyze the sentiment of the selected tweet.
+## 💻 Running the Project
 
-     ![Extension Icon](https://github.com/Anirudhabg/Twitter_sentiment_analysis/blob/5f3d83c54b2205ee3ba7bc11c32373979a3de3ae/Images/2.png)
+### ✅ Start the Flask Backend
 
-## License
+```bash
+python app.py
+```
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+> The backend will be available at: [http://localhost:5000](http://localhost:5000)
+
+---
+
+### 🧩 Setup the Chrome Extension
+
+1. Open Chrome and go to `chrome://extensions`.
+2. Enable **Developer Mode** (top-right corner).
+3. Click **Load unpacked** and select the `extensions/` directory.
+4. Visit [Twitter](https://twitter.com).
+5. Select any tweet, right-click on it, and choose **"Analyze Sentiment"**.
+6. Click the extension icon to view the sentiment result.
+
+#### 📸 Screenshots
+
+| Analyze via Right Click                                                                                                                   | Analyze via Extension                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Analyze Sentiment](https://github.com/Anirudhabg/Twitter_sentiment_analysis/blob/5f3d83c54b2205ee3ba7bc11c32373979a3de3ae/Images/1.png) | ![Extension Icon](https://github.com/Anirudhabg/Twitter_sentiment_analysis/blob/5f3d83c54b2205ee3ba7bc11c32373979a3de3ae/Images/2.png) |
+
+---
+
+## 📌 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request.
+
+1. Fork this repository
+2. Create a branch: `git checkout -b feature/feature-name`
+3. Commit your changes: `git commit -m "Add feature"`
+4. Push to the branch: `git push origin feature/feature-name`
+5. Submit a pull request
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 Contact
+
+For any queries, reach out via [Email](mailto:anirudhabg@gmail.com) or connect via [GitHub](https://github.com/Anirudhabg).
+
+---
+
+> Crafted by Anirudha B G Somayaji
