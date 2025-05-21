@@ -16,40 +16,15 @@
 
 ## 🧠 Technologies Used
 
-* **Python**, **Flask**
-* **Scikit-learn**, **NLTK**, **Pandas**
-* **Jupyter Notebook**
-* **JavaScript**, **HTML5**, **CSS3** (Chrome Extension)
-* **Chrome Extensions API**
-
-<!-- Python -->
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-<!-- Flask -->
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-
-<!-- Scikit-learn -->
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-<!-- NLTK -->
 ![NLTK](https://img.shields.io/badge/NLTK-009688?style=for-the-badge&logo=python&logoColor=white)
-
-<!-- Pandas -->
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
-<!-- Jupyter Notebook -->
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-
-<!-- JavaScript -->
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-<!-- HTML5 -->
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-
-<!-- CSS3 -->
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-<!-- Chrome Extension -->
 ![Chrome Extension API](https://img.shields.io/badge/Chrome_Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 
 ---
